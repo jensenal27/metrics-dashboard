@@ -33,8 +33,6 @@ const ColumnSecond = ({data, xAccessor, yAccessor, title, setActiveAccount}) => 
 
     test.sort((a, b) => b.y - a.y);
 
-    console.log(test);
-
     const rectColors = function(d) { return d.x === 'Partner' ? '#044662' :
                                             d.x === 'Internal' ? '#0f5a7b' :
                                             d.x === 'Client' ? '#227193' :
