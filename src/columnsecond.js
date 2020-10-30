@@ -75,7 +75,7 @@ const ColumnSecond = ({data, xAccessor, yAccessor, title, setActiveAccount}) => 
 
     const testFn = () => {
 
-        if (title === 'IC: Sub Account') {
+        if (title === 'Account') {
             setActiveAccount(test[0].x)
         }
 
